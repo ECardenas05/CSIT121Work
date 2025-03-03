@@ -1,0 +1,82 @@
+body {
+    background-color: deepskyblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#special {
+    background-color: darkslategray;
+}
+.highlight {
+    background-color: aquamarine;
+}
+article {
+    padding: 1em;
+}
+
+main, header, footer {
+    width: 80%;
+    margin: auto;
+    background-color: cadetblue;
+    border: 2px solid lightskyblue;
+}
+article {
+    background-color: azure;
+}
+article header {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+
+h1, h2, h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header h1 {
+    padding: .6em;
+}
+
+main h2 {
+    border-bottom: 2px solid DarkCyan;
+    margin-bottom:-.10em;
+}
+
+.author {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: normal;
+    font-weight: lighter;
+    font-style: italic; 
+}
+
+
+main a {
+    font-weight:normal;
+}
+
+main a:link {
+    color: rgb(29, 80, 82);
+  }
+  
+  
+  main a:visited {
+    color: rgb(4, 39, 37);
+  }
+  
+  
+  main a:hover {
+    color: rgb(1, 83, 83);
+    background-color: rgb(135, 185, 185);
+  }
+  
+  
+  main  a:active {
+    color: rgb(0, 92, 92);
+    background-color: rgb(11, 206, 196);
+  }
+
+
+footer p{
+    padding: 3em;
+    font-style: italic;
+}
